@@ -18,6 +18,16 @@
   font-size: large;
 }
 
+.App-news-list {
+  overflow: auto;
+  max-height: 600px;
+}
+
+.App-news-list-item {
+  padding: 15px;
+  height: 30px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
