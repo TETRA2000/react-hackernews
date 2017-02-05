@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "6.1"
+  - "5.11"
+script:
+  - yarnpkg run build
+cache:
+  directories:
+    - node_modules
