@@ -81,8 +81,10 @@ class App extends Component {
     const news_info = this.state.news_info;
     const info = news_info[item.id] || {};
 
-    if(jQuery.isEmptyObject(info) && info.loading !== true) {
-      this.fetchNewsInfo(item.id);
+    if(typeof info.id === "undefined") {
+      if (info.loading !== true) {
+        this.fetchNewsInfo(item.id);
+      }
 
       return <div key={key} className="App-news-list-item" >Now Loading...</div>;
     } else {
