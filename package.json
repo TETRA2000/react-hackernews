@@ -5,7 +5,7 @@
   "homepage": "https://tetra2000.github.io/react-hackernews",
   "devDependencies": {
     "gh-pages": "^2.1.1",
-    "react-scripts": "0.8.5"
+    "react-scripts": "3.2.0"
   },
   "dependencies": {
     "@types/jquery": "^2.0.40",
