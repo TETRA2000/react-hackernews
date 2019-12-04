@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://tetra2000.github.io/react-hackernews",
   "devDependencies": {
-    "gh-pages": "^0.12.0",
+    "gh-pages": "^2.1.1",
     "react-scripts": "0.8.5"
   },
   "dependencies": {
@@ -12,7 +12,7 @@
     "jquery": "^3.1.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-list": "^0.8.3"
+    "react-list": "^0.8.13"
   },
   "scripts": {
     "start": "react-scripts start",
